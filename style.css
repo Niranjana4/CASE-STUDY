@@ -1,68 +1,54 @@
 body{
     font-family: 'Noto Sans KR', sans-serif;
-    background-color: lightblue;
-}
-.header_div
-  {
-  background: white;
-  color: lightgreen; 
-  }
-  .header_div img
-  {
-    width: 100px
-  }
-  .main_div
-  {
     background:#daebf5;
-    padding: 10px;
+}
+
+.heading{
+    background: white;
+    color:rgb(50, 250, 127);
+}
+
+.heading img{
+    width:100px;
+}
+
+.cam{
+    background:#daebf5;
+    padding:10px;
     margin-top: 15px;
     border: 3px solid white;
-  }
-  .main_div label
-  {
+
+}
+
+.cam label{
     background: white;
-    width: 310px;
-    padding: 10px;
-    margin-bottom: 0px;
-    box-shadow: 5px 5px 18px white;    
-  }
-  #camera , #result
-  {
-    border: 2px solid white;
-    width: 310px;
-    height: 300px; 
-    box-shadow: 5px 5px 18px white;    
-  }
-  .main_div button
-  {
-    width: 310px;
+    width:310px;
+    padding:10px;
+    margin-bottom: 0%;
+    box-shadow: 5px 5px 18px white;
+}
+
+#camera{
+    border:2px solid white;
+    width:310px;
+    height: 300;
+    box-shadow: 5px 5px 18px white;
+}
+
+.cam button{
+    width:310px;
     font-size: 16px;
     box-shadow: 5px 5px 18px white;
     border: 1px solid;
-  }
+}
 
-  .bulb
-  {
-    margin-bottom: 50px;
-  }
-
-  .bulb h4{
-    background: white;
-    border-radius: 10px;
-    padding: 5px;
-    box-shadow:5px 5px 18px white;
-  }
-
-  .bulb img{
-    width: 70px;
-  }
-
-  .footer{
-    position: fixed;
-    color: darkblue;
-    bottom: 0;
-    width: 100%;
-    background-color: darkcyan;
+.footer{
+    position:fixed;
+    background-color:rgb(175, 175, 255);
+    font-size: 20;
+    color:white;
+    bottom:0;
+    width:100%;
     line-height: 3;
     text-align: center;
-  }
+}
